@@ -42,6 +42,15 @@ app.get("*", (req: Request, res: Response) => {
   res.sendFile(path.join(__dirname, "../../frontend/dist/index.html"));
 });
 
-app.listen(7000, () => {
-  console.log("server running on localhost:7000");
+// Use PORT provided in environment or default to 3000
+
+const port = JSON.parse(process.env.PORT!);
+
+// Listen on `port` and 0.0.0.0
+app.listen(port, "0.0.0.0", function () {
+  console.log(`Server is running on ${port}`);
 });
+
+// app.listen(7000, () => {
+//   console.log("server running on localhost:7000");
+// });
