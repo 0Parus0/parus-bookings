@@ -1,5 +1,5 @@
 # Parus-Bookings.com
-The app allows users to add or remove hotels, book rooms for children and adults, and securely make payments using Stripe. Hosted on AWS EC2 instance. This project showcases my skills in building scalable booking systems with integrated payment processing and dynamic data management and incorporation of E2E testing.
+The app enables users to add or remove hotels, book rooms for both children and adults, and securely process payments via Stripe, hosted on an AWS EC2 instance. This project demonstrates my expertise in developing scalable booking systems with integrated payment processing, dynamic data management, and comprehensive end-to-end (E2E) testing for reliability and performance.
 ## Demo
 Check out the live demo [here](https://www.laca-sa.com/).
 
